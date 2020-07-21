@@ -22,23 +22,23 @@ Z<-cbind(1,both$Z1,both$Z2)   # (both trial and cohort) design matrix (including
 X<-trial$X                    # (trial) treatment indicator
 
 # analysis with true treatment propensity scores
-source("...\IPW_truePS.R")    ### change file directory here ###
+source("...\IPSW_truePS.R")    ### change file directory here ###
 source("...\OR_truePS.R")     ### change file directory here ###
 source("...\DR_truePS.R")     ### change file directory here ###
 
-IPW1(Y=Y,S=S,Z=Z,X=X,N=N)
-IPW2(Y=Y,S=S,Z=Z,X=X,N=N)
+IPSW1(Y=Y,S=S,Z=Z,X=X,N=N)
+IPSW2(Y=Y,S=S,Z=Z,X=X,N=N)
 OR1(Y=Y,S=S,Z=Z,X=X,N=N)
 DR1(Y=Y,S=S,Zp=Z,Zo=Z,X=X,N=N)
 DR2(Y=Y,S=S,Zp=Z,Zo=Z,X=X,N=N)
 
 # analysis with estimated treatment propensity scores
-source("...\IPW_estPS.R")    ### change file directory here ###
+source("...\IPSW_estPS.R")    ### change file directory here ###
 source("...\OR_estPS.R")     ### change file directory here ###
 source("...\DR_estPS.R")     ### change file directory here ###
 
-IPW1(Y=Y,S=S,Zp=Z,Ze=Z,X=X,N=N)
-IPW2(Y=Y,S=S,Zp=Z,Ze=Z,X=X,N=N)
+IPSW1(Y=Y,S=S,Zp=Z,Ze=Z,X=X,N=N)
+IPSW2(Y=Y,S=S,Zp=Z,Ze=Z,X=X,N=N)
 OR1(Y=Y,S=S,Ze=Z,Zo=Z,X=X,N=N)
 DR1(Y=Y,S=S,Zp=Z,Ze=Z,Zo=Z,X=X,N=N)
 DR2(Y=Y,S=S,Zp=Z,Ze=Z,Zo=Z,X=X,N=N)

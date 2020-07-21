@@ -5,7 +5,7 @@
 ##############################################
 # Y: (trial) outcome
 # S: (both trial and cohort) participation indicator
-# Zp: (both trial and cohort) design matrix (including intercept) for participation
+# Zp: (both trial and cohort) design matrix (including intercept) for participation (sampling score)
 # Zo: (both trial and cohort) design matrix (including intercept) for outcome models
 # X: (trial) treatment indicator
 # N: target population size
