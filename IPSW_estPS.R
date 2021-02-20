@@ -3,6 +3,7 @@
 # IPSW1 and IPSSW2
 # estimated treatment PS is used
 ##############################################
+# Input: 
 # Y: (trial) outcome
 # S: (both trial and cohort) participation indicator
 # Zp: (both) design matrix (including intercept) for sampling score

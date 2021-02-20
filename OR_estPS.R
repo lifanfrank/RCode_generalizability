@@ -1,7 +1,8 @@
-##############################################
+#########################################################
 # Outcome regression estimators for generalizability
 # estimated treatment PS is used
-##############################################
+#########################################################
+# Input: 
 # Y: (trial) outcome
 # S: (both trial and cohort) participation indicator
 # Ze: (trial) design matrix (including intercept) for propensity 

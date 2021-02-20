@@ -1,5 +1,6 @@
 ##############################################
 # example function to simulate data
+# Input: 
 # gamma: coefficient in sampling score model
 # alpha: coefficient of effect modifiers in 
 #        potential outcome models

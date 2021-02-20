@@ -1,7 +1,8 @@
-##############################################
+#######################################################
 # Outcome regression estimators for generalizability
 # true treatment PS is used
-##############################################
+#######################################################
+# Input: 
 # Y: (trial) outcome
 # S: (both trial and cohort) participation indicator
 # Z: (both trial and cohort) design matrix (including intercept) for outcome model

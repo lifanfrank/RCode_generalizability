@@ -3,6 +3,7 @@
 # DR1 and DR2 for generalizability
 # true treatment PS is used 
 ##############################################
+# Input: 
 # Y: (trial) outcome
 # S: (both trial and cohort) participation indicator
 # Zp: (both trial and cohort) design matrix (including intercept) for participation (sampling score)

@@ -1,7 +1,7 @@
-##########################################
+###################################################################
 # example use of function with simulated data
 # need to change file directory to read in the functions
-##########################################
+###################################################################
 
 # set true coefficients
 source("...\simdata.R")       ### change file directory here ###
